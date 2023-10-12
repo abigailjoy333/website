@@ -1,5 +1,5 @@
 # my website!
 
-## come learn about me ...
+come learn about me ...
 
-*live link*: 
+*live link*: https://abigailjoy333.github.io/website/

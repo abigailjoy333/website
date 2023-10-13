@@ -70,14 +70,14 @@ a:active {
 }
 
 .link-primary {
-    font-size: 4vh;
+    font-size: 35px;
     margin-left: 5vw;
     margin-top: 50px;
     width: fit-content;
 }
 
 .link-secondary {
-    font-size: 3vh;
+    font-size: 25px;
     margin-left: 5vw;
     width: fit-content;
 }

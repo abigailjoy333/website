@@ -41,6 +41,12 @@ p, li {
     font-family:'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
 }
 
+img{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+
 footer {
     height: 50px;
 }

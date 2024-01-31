@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    font-size: 55px;
+    font-size: 45px;
     letter-spacing: 3vw;
     display: flex;
     justify-content: end;
@@ -35,7 +35,7 @@ h4 {
 }
 
 p, li {
-    font-size: 17px;
+    font-size: 15px;
     width: 75vw;
     margin-left: 5vw;
     font-family:'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
@@ -83,7 +83,7 @@ a:active {
 }
 
 .logo-size {
-    height: 50px;
+    height: 6vw;
     max-width: 100%;
 }
 
@@ -110,6 +110,7 @@ a:active {
     text-align: center;
     text-decoration: none;
     letter-spacing: .5vw;
+    font-size: 3vw;
 }
   
 .topnav a:hover {
@@ -149,3 +150,36 @@ a:active {
 }
 
 /* contact */
+
+/* graphic design photo collage */
+  
+
+.photo-collage{
+    padding: 0 5px 0 5px;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .column {
+        max-width: 50%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+        max-width: 100%;
+    }
+}
